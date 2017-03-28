@@ -40,7 +40,8 @@
 #include <sys/time.h>
 #include <sys/types.h>
 #include <sys/stat.h>
-#include <unistd.h>
+#include <headers_fixup.h>
+#include <io.h>
 #include <fcntl.h>
 #include <time.h>
 #ifdef	HAVE_GETHRTIME
@@ -52,9 +53,9 @@
 #ifdef HAVE_GETRUSAGE
 #include <sys/resource.h>
 #endif
-#ifdef __MINGW32__
+
 #include <process.h>
-#endif
+
 #include "g10lib.h"
 #include "random.h"
 #include "rand-internal.h"

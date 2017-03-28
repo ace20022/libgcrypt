@@ -21,7 +21,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <errno.h>
-#include <unistd.h>
+#include <headers_fixup.h>
+#include <io.h>
 #include <string.h>
 #ifdef ENABLE_HMAC_BINARY_CHECK
 # include <dlfcn.h>

@@ -22,7 +22,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdarg.h>
-#include <unistd.h>
+#include <headers_fixup.h>
 
 #include "g10lib.h"
 #include "mpi.h"
